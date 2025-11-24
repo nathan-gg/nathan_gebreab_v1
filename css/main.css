@@ -45,10 +45,10 @@ html {
 
 body {
   /* background-color: #FF7E00; */
-  background-color: #fdffea;
+  background-color: #fffef7;
   font-family: GT-Flexa-Mono, monospace;
   font-weight: 500;
-  background-image: url("../img/blue-grid.webp");
+  /* background-image: url("../img/blue-grid.webp"); */
   /* background-attachment: fixed; */
 
   cursor: url(../img/transparent-cursor.svg) 11 11, auto;
@@ -56,7 +56,7 @@ body {
 }
 
 h1 {
-  color: #febe75;
+  color: #ff9197;
   font-family: Financier-Display, serif;
   font-weight: 900;
   font-style: italic;
@@ -77,7 +77,7 @@ a {
 }
 
 a:hover, a:focus, a:active{
-  color: #ff4400;
+  color: #cf071f;
   cursor: url(../img/test-cursor.svg) 11 11, pointer;
   transition: color .1s ease;
 }
@@ -131,7 +131,7 @@ a:hover .item-hover, a:focus .item-hover, a:active .item-hover{
 }
 
 .home-icon:hover .outside-logo, .home-icon:focus .outside-logo, .home-icon:active .outside-logo{
-  fill: #ff4400;
+  fill: #cf071f;
 }
 
 nav span.material-symbols-outlined, .site-footer span.material-symbols-outlined{
@@ -206,7 +206,7 @@ nav span.right-arrow-home{
   text-align: left;
   margin-top: 0;
   padding: 0;
-  background-color: #ff4400;
+  background-color: #cf071f;
 }
 
 .case-study-page h3{
@@ -249,7 +249,7 @@ font-size: 1rem;}
 
 .image-link{
   box-sizing: border-box;
-  border: #febe75;
+  border: #ff9197;
   border-style: solid;
   border-width: .2rem;
   transition: all .1s ease-in-out;
@@ -258,7 +258,7 @@ font-size: 1rem;}
 .image-link:hover, .image-link:focus, .image-link:active{
   position: relative;
   translate: -.5rem -.5rem;
-  box-shadow: .5rem .5rem #febe75;
+  box-shadow: .5rem .5rem #ff9197;
   
 }
 
@@ -276,7 +276,7 @@ font-size: 1rem;}
   object-fit: contain;
   max-width: 100%;
   box-sizing: border-box;
-  border: #febe75;
+  border: #ff9197;
   border-style: solid;
   border-width: .2rem;
   height: fit-content;
@@ -311,7 +311,7 @@ font-size: 1rem;}
   max-width: 100%;
   height: fit-content;
   box-sizing: border-box;
-  border: #febe75;
+  border: #ff9197;
   border-style: solid;
   border-width: .2rem;
 }
@@ -332,7 +332,7 @@ font-size: 1rem;}
   object-fit: cover;
 
   box-sizing: border-box;
-  border: #febe75;
+  border: #ff9197;
   border-style: solid;
   border-width: .2rem;
 }
@@ -509,7 +509,7 @@ nav span.material-symbols-outlined{
 .image-link:hover, .image-link:focus, .image-link:active{
   top: -.5rem;
   left: -.5rem;
-  box-shadow: .5rem .5rem #febe75;
+  box-shadow: .5rem .5rem #ff9197;
 }
 
 .hero-image-container{
